@@ -5,7 +5,7 @@
 
     "functions": {
         "api/index.php": {
-            "runtime": "vvercel-php@0.3.3"
+            "runtime": "vercel-php@0.3.3"
             // "runtime": "vvercel-php@0.6.0"
         }
     },
