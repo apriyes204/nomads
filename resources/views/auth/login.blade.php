@@ -63,6 +63,11 @@
                                     </a>
                                 @endif
                             </div>
+                            <div class="col-md-8 offset-md-4">
+                                <a href="{{_('register')}}" class="btn btn-link">
+                                    Already Account
+                                </a>
+                            </div>
                         </div>
                     </form>
                 </div>
