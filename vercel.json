@@ -35,10 +35,11 @@
         "SESSION_DRIVER": "cookie",
 
         "DB_CONNECTION": "mysql",
-        "DB_HOST": "4gg.h.filess.io",
+        "DB_HOST": "wwe.h.filess.io",
         "DB_PORT": "3306",
-        "DB_DATABASE": "db2024_stormtorn",
-        "DB_USERNAME": "db2024_stormtorn",
+        "DB_DATABASE": "nomads_sportbeing",
+        "DB_USERNAME": "nomads_sportbeing",
+        "DB_PASSWORD": "d674f6cf478dbf9ba9edb07ffd3e6e9769a79284",
 
         "MAIL_MAILER": "smtp",
         "MAIL_HOST": "sandbox.smtp.mailtrap.io",
