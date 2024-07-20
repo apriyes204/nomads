@@ -4,23 +4,25 @@
     "framework": null,
 
     "functions": {
-        "api/index.php": {
-            // "runtime": "vercel-php@0.3.3"
-            "runtime": "vvercel-php@0.6.0"
-        }
+        "src": "/(.*)",
+        "dest": "/api/index.php"
+        // "api/index.php": {
+        //     // "runtime": "vercel-php@0.3.3"
+        //     "runtime": "vercel-php@0.3.1"
+        // }
     },
-    "routes": [
-        {
+    "routes": [ {
             // "src": "/build/(.*)", "dest": "/public/" }, {
             // "src": "/(.*)", "dest": "/api/index.php"
             "src": "/(.*)",
             "dest": "/api/index.php"}
     ],
 
-    // "public": "true",
+    "public": "true",
     
+
+
     // "buildCommand": "vite build",
-    
 
     "env": {
         "APP_ENV": "production",
@@ -53,5 +55,7 @@
         "MAIL_PASSWORD": "8ffed4bc0291de",
         "MAIL_ENCRYPTION": "tls"
     },
+
     "outputDirectory": "public"
+    
 }
